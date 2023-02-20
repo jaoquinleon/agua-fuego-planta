@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seleccionpc{
+    height:200px ;
+    width:auto ;
+    position: relative;
+    left: 200px;
+    top: 100px;
+
+}
+#seleccionuser{
+    height:200px ;
+    width:auto ;
+    position: relative;
+    right: 200px;
+    top: 100px;
+
+}
+
+.gigant{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    right: 50px;
+
+    display: grid;
+    grid-template-areas: 
+    "hold1 hold15 hold2"
+    "hold1 hold15 hold2";
+}
+.hold1{
+    grid-area: auto;
+    height: 900px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    
+    
+
+
+}
+.hold15{
+    grid-area: auto;
+    text-align: center;
+    height: 900px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+
+}
+.hold2{
+    grid-area: auto;
+    height: 900px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+
+
+}
+.contenedor{
+    max-width: 500px;
+    height: 100vh;
+    max-height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#butons{
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+}
+#butons > button > img{
+    width: 100%;
+}
+#texto{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 200px;
+}
+#resultado{
+    height: 50vh;
+}
+
+#corazon{
+    position: relative;
+    top: 658px;
+    width: 500px;
+    height: auto;
+    font-size: 50px;
+    font-family:'Times New Roman';
+    
+}
+
+#party{
+    text-align: center;
+}
+.partidas{
+    position: relative;
+    top: 200px;   
+}
+
+.tipo{
+    padding: 30px;
+}
+
+#tip{
+    
+    text-align: left;
+    border-right: solid rgb(238, 8, 134);
+}
+
+
+
+.nomostrar{
+    display: block;
+
+}
+

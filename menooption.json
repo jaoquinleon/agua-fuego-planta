@@ -1,0 +1,17 @@
+[
+    {
+        "Tipo": "Fuego",
+        "Daños": "Efectivo contra el planta, debil contra el agua"
+    },
+
+    {
+        "Tipo": "Agua",
+        "Daños": "Efectivo contra el Fuego, debil contra el Planta"
+    },
+
+    {
+        "Tipo": "Planta",
+        "Daños": "Efectivo contra el Agua, debil contra el Fuego"
+    }
+    
+]
